@@ -3,7 +3,7 @@
   align-items: center;
   margin: auto; }
 
-.price-table {
+.price-card {
   width: 380px;
   height: 770px;
   display: flex;
@@ -11,85 +11,84 @@
   background: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   margin-left: 18px; }
-  .price-table:first-child {
+  .price-card:first-child {
     margin-left: 0; }
-  .price-table__title {
+  .price-card__title {
     margin: 0;
     margin-top: 33px;
     font-weight: bold;
     font-size: 35px;
     line-height: 43px;
     text-align: center; }
-  .price-table__subtitle {
+  .price-card__price {
     font-size: 20px;
     line-height: 24px;
     text-align: center;
     margin-bottom: 33px; }
-  .price-table__cost {
+  .price-card__cost {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 105px;
     background: #5bb189; }
-    .price-table__cost-sum {
+    .price-card__cost-sum {
       margin: 0;
       font-weight: 700;
       font-size: 55px;
       line-height: 67px; }
-  .price-table__description {
+  .price-card__description {
     margin: 40px 26px;
     font-weight: 300;
     font-size: 15px;
     line-height: 18px;
     text-align: center; }
-  .price-table__items {
+  .price-card__options-list {
     margin-bottom: 39px; }
-    .price-table__items-point {
+    .price-card__options-list_point {
       display: flex;
       align-items: center;
       height: 50px;
       width: 100%; }
-      .price-table__items-point:nth-child(odd) {
+      .price-card__options-list_point:nth-child(odd) {
         background: #2a34387f; }
-      .price-table__items-point-img {
+      .price-card__options-list_point-img {
         margin-left: 22px;
         margin-right: 22px; }
-      .price-table__items-point-text {
+      .price-card__options-list_point-text {
         font-weight: 300;
         font-size: 15px;
         line-height: 18px; }
+  .price-card__order-btn_basic {
+    background: #5bb189; }
+  .price-card__bussines {
+    background: #3a6ba5; }
+    .price-card__bussines-mark {
+      display: flex;
+      position: absolute;
+      top: 30px;
+      left: 265px;
+      width: 147px;
+      height: 25px;
+      background: #dc3f45;
+      text-align: center;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      transform: rotate(45deg); }
+      .price-card__bussines-mark_text {
+        margin: auto; }
+    .price-card__bussines-main {
+      position: relative;
+      overflow: hidden; }
+  .price-card__order-btn-bussines {
+    background: #3a6ba5; }
+  .price-card__cost-webshop {
+    background: #ec632a; }
+  .price-card__order-btn-webshop {
+    background: #ec632a; }
 
-.price-table__button-basic {
-  background: #5bb189; }
-.price-table__bussines {
-  background: #3a6ba5; }
-  .price-table__bussines-main {
-    position: relative;
-    overflow: hidden; }
-.price-table__button-bussines {
-  background: #3a6ba5; }
-.price-table__cost-webshop {
-  background: #ec632a; }
-.price-table__button-webshop {
-  background: #ec632a; }
-.price-table__bussines-mark {
-  display: flex;
-  position: absolute;
-  top: 30px;
-  left: 265px;
-  width: 147px;
-  height: 25px;
-  background: #dc3f45;
-  text-align: center;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
-  transform: rotate(45deg); }
-  .price-table__bussines-mark_text {
-    margin: auto; }
-
-.price-table__button {
+.price-card__order-btn {
   border-radius: 20px;
   font-size: 14px;
   text-align: center;
