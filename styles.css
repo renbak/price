@@ -111,10 +111,8 @@ html {
   color: #ffffff; }
 
 .top-main {
-  width: 1440px;
-  height: 1000px;
   background: #141b1c;
-  margin: auto;
-  display: flex; }
+  display: flex;
+  min-height: 100vh; }
 
 /*# sourceMappingURL=styles.css.map */
