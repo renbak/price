@@ -20,19 +20,24 @@
     font-size: 35px;
     line-height: 43px;
     text-align: center; }
-  .price-card__price {
+  .price-card__subtitle {
     font-size: 20px;
     line-height: 24px;
     text-align: center;
     margin-bottom: 33px; }
-  .price-card__cost {
+  .price-card__price {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 105px;
-    background: #5bb189; }
-    .price-card__cost-sum {
+    height: 105px; }
+    .price-card__price-basic {
+      background: #5bb189; }
+    .price-card__price-business {
+      background: #3a6ba5; }
+    .price-card__price-webshop {
+      background: #ec632a; }
+    .price-card__price-sum {
       margin: 0;
       font-weight: 700;
       font-size: 55px;
@@ -83,8 +88,6 @@
       overflow: hidden; }
   .price-card__order-btn-bussines {
     background: #3a6ba5; }
-  .price-card__cost-webshop {
-    background: #ec632a; }
   .price-card__order-btn-webshop {
     background: #ec632a; }
 
