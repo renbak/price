@@ -1,6 +1,6 @@
 
 
-# Price List by FIGMA.com
+# Price List
 
 
 ### [URL on my project 'Price List'](https://github.com/renbak/price)
