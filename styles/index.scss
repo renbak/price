@@ -1,6 +1,10 @@
 @import 'basic.scss';
 @import 'common.scss';
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: Montserrat, sans-serif;
   font-size: 16px;
@@ -13,8 +17,4 @@ html {
   background: #141b1c;
   margin: auto;
   display: flex;
-}
-
-* {
-  box-sizing: border-box;
 }
